@@ -1,5 +1,5 @@
 # SCALABLE APPLICATION DEVELOPMENT USING JAVA -2026
-CSE2503 (THEORY - 3-0-3)
+# CSE2503 (THEORY - 3-0-3)
 # Course Outcomes (COs)
 
 | CO   | Description                                                                                                                      |
@@ -45,7 +45,7 @@ Online Resources
 | ENDTERM                     | ENDTERM                      | 100   | 180 mins                 |   COE
 
 
-CSE2503 (Lab - 0-2-1)
+# CSE2503 (LAB - 0-2-1)
 # Course Outcomes (COs)
 
 | CO   | Description                                                                                                                      |
