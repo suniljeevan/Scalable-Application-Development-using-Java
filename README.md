@@ -45,7 +45,7 @@ Online Resources
 | ENDTERM                     | ENDTERM                      | 100   | 180 mins                 |   COE
 
 
-# CSE2503 (LAB - 0-2-1)
+# CSE2504 (LAB - 0-2-1)
 # Course Outcomes (COs)
 
 | CO   | Description                                                                                                                      |
