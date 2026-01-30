@@ -21,13 +21,15 @@ class Y extends Thread {
 	
 }
 public class Demo2 {
-	public static void main(String[] args) {
+	public static void main(String[] args)
+			throws Exception {
 		Y ob1=new Y("first");
 		Y ob2=new Y("second");
 		Y ob3=new Y("third");
 		Y ob4=new Y("fourth");
 		ob1.start();ob2.start();ob3.start();ob4.start();
-
+        Thread.sleep(40000);
+        System.out.println("main completed");
 	}
 
 }
