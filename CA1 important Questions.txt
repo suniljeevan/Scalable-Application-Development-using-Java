@@ -1,0 +1,20 @@
+CA1 
+1.practice Life cycle of thread with
+diagram
+2.discuss constructors and method in Thread
+class
+3.Create 2 threads to print 
+    1. factorial of a number
+    2. prime no check
+4.How many different ways are there
+to create thread
+5.Discuss the difference between them
+(Thread vs Runnable)
+6.Explain Synchronization with diagram
+and example
+7.Discuss Inter Thread Communication
+using producer-consumer
+
+
+
+
