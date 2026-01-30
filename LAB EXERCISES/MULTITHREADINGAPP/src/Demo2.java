@@ -11,9 +11,12 @@ class Y extends Thread {
 	}
 	//assigning task to thread
 	public void run() {
+		try {
 		for(int i=1;i<=5;i++) {
 			System.out.println(name+" "+i);
+			Thread.sleep(2000);
 		}
+		}catch(Exception e) {}
 	}
 	
 }
