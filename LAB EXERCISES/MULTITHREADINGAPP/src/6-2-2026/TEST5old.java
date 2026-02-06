@@ -1,7 +1,8 @@
 package MYPACK;
-class MYTASK implements Runnable {
+class MYTHREAD extends Thread {
 	String name;
-	MYTASK(String name) {
+	MYTHREAD(String name) {
+		super(name);
 		this.name=name;
 		System.out.print(name);
 		System.out.println("created");
@@ -17,13 +18,9 @@ class MYTASK implements Runnable {
 }
 public class TEST5 {
 	public static void main(String[] args) throws Exception{
-         MYTASK task = new MYTASK("print");
-         Thread t1=new Thread(task);
-         Thread t2=new Thread(task);
-         Thread t3=new Thread(task);
-         t1.setName("one");
-         t2.setName("two");
-         t3.setName("three");
+         MYTHREAD t1 = new MYTHREAD("One");
+         MYTHREAD t2 = new MYTHREAD("Two");
+         MYTHREAD t3 = new MYTHREAD("Threee");
          t1.setPriority(Thread.MIN_PRIORITY);
          t2.setPriority(Thread.NORM_PRIORITY);
          t3.setPriority(Thread.MAX_PRIORITY);
