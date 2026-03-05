@@ -1,4 +1,4 @@
-// multithreading with synchronization
+// multithreading with synchronization to print [a][b][c]
 package PACK2;
 
 class Resource {
